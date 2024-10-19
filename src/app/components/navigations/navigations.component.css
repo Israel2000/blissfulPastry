@@ -1,8 +1,10 @@
    /* Custom style to center the logo */
    .navbar {
     justify-content: space-between;
-    background-color: red !important;
+    background-color: rgb(255, 255, 255) !important;
     border-radius: 52px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Regular box-shadow */
   }
   .navbar-center {
     position: absolute;
@@ -11,8 +13,20 @@
   }
 
   a {
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 10px;
     border-radius: 10px;
-    
+    font-size: 20px!important;
   }
+
+    a:hover {
+      color: #041E42;
+      text-decoration: underline;
+      /* Adds underline on hover */
+      transition: 0.3s;
+      /* Smooth transition for the hover effect */
+    }
+
+    .img-fluid {
+      height: 200px !important;
+    }

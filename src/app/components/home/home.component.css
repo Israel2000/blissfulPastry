@@ -1,0 +1,42 @@
+:root {
+    --my-orange-color: #E56717!important;
+    --btn-color: #ffffff!important;
+    --secondary-color: #FEF6C6!important;
+}
+
+/* img bg */
+.full-width-img {
+    width: 100%;
+}
+
+.lead {
+    color: var(--my-orange-color);
+}
+
+.display-4, div > h5 {
+    color: var(--my-orange-color);
+}
+
+a.btn.btn-primary {
+    background-color: var(--btn-color);
+    color: var(--my-orange-color);
+    border: none;
+}
+
+p{
+    color: var(--secondary-color)
+}
+/* form section */
+.form-section {
+    background-color: rgba(0, 123, 255, 0.2);
+    /* Semi-transparent blue background */
+}
+
+.form-container {
+    background-color: #041E42;
+    /* White background for form container */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: subtle shadow */
+}

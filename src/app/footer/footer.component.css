@@ -1,0 +1,29 @@
+.footer {
+    background-color: #041E42;
+    /* Light background */
+    border-top: 1px solid #e9ecef;
+    color: #E56717;
+}
+
+.footer .logo {
+    max-width: 150px;
+    /* Adjust logo size */
+}
+
+.footer nav a {
+    color: #E56717;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.footer nav a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #000;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
