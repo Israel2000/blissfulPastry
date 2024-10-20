@@ -1,3 +1,5 @@
+<app-navigations></app-navigations>
+
 <div>
   <img
     src="assets/landingpage-blissfulpastry.png"
@@ -6,9 +8,7 @@
   />
 </div>
 
-
 <!-- 3 coloums with image sections -->
-
 <section class="text-center my-5">
   <!-- Title and Subtitle -->
   <div class="container">
@@ -66,42 +66,62 @@
 </section>
 
 <!-- form section -->
- <section class="form-section py-5">
+<section class="form-section py-5">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="form-container p-4 rounded">
-          <h3 class="text-center mb-4">If your have questions,please write a message.</h3>
-          <form>
-            <!-- Name -->
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    <div class="row">
+      <!-- Wrapper with the same background for both sections -->
+      <div class="col-12">
+        <div class="background-container p-4 rounded">
+          <div class="row">
+            <!-- Left side with the form -->
+            <div class="col-md-6">
+              <div class="form-container">
+                <h3 class="text-left mb-4 text-white">If you have questions,<br/>please write a message.</h3>
+                <form>
+                  <!-- Name -->
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                  </div>
+                  <!-- Email -->
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                  </div>
+                  <!-- Phone -->
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                  </div>
+                  <!-- Message -->
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                  </div>
+                  <!-- Submit Button -->
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Submit Form</button>
+                  </div>
+                </form>
+              </div>
             </div>
-            <!-- Email -->
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email">
-            </div>
-            <!-- Phone -->
-            <div class="mb-3">
-              <label for="phone" class="form-label">Phone</label>
-              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
-            </div>
-            <!-- Message -->
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-            </div>
-            <!-- Submit Button -->
-            <div class="d-grid">
-              <button type="submit" class="btn btn-primary">Submit From</button>
-            </div>
-          </form>
+
+            <!-- Right side with content -->
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+              <div class="right-section text-center">
+                <!-- Add your content here -->
+                <h3 class="text-white">Special occasion orders are welcomed <br/>
+                  720-121-1222 <br/>
+                  <a href="mailto:blissfulpastry@gmail.com" class="text-white">blissfulpastry&#64;gmail.com</a>
+                </h3>
+              </div>
+            </div>            
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <app-footer></app-footer>

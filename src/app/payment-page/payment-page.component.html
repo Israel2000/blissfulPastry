@@ -1,0 +1,52 @@
+<app-navigations></app-navigations>
+
+<div class="custom-container">
+    <h1>Made the right choice</h1>
+</div>
+
+<!-- payment section -->
+<div class="container bg-primary py-5">
+    <h2 class="text-white text-center mb-4">Complete the form for your order.</h2>
+    
+    <div class="form-container bg-warning p-4 rounded mx-auto" style="max-width: 800px;">
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="fullName" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+        </div>
+  
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+          </div>
+          <div class="col-md-6">
+            <label for="deliveryDate" class="form-label">Delivery Date</label>
+            <input type="date" class="form-control" id="deliveryDate">
+          </div>
+        </div>
+  
+        <!-- Section for payment options -->
+        <div class="row mb-3 text-center">
+            <div class="col-md-12  payment-choice">
+                <button  class="btn paypal-btn">
+                    Pay with PayPal
+                  </button>
+                
+                  <button class="btn credit-card-btn">
+                    Pay with Credit Card
+                  </button>
+            </div>
+          </div>
+      </form>
+    </div>
+  </div>
+  
+
+  <app-footer></app-footer>

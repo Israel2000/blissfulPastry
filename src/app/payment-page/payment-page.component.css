@@ -1,0 +1,77 @@
+:root {
+    --my-orange-color: #E56717!important;
+    --btn-color: #ffffff!important;
+    --secondary-color: #FEF6C6!important;
+}
+
+h1 {
+    color: var(--my-orange-color)!important;
+    margin-left: 67px;
+}
+
+.custom-container {
+    background-color: #FB7A28;
+    height: 300px;
+    position: relative;
+    z-index: -2; /* Keeps this element in front */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; /* Vertically center content */
+    color: white;
+    width: 100%; /* Ensure full width */
+    margin-top: -100px; /* Pushes the container 100px upwards */
+}
+
+/* payment form */
+.bg-warning {
+    background-color: #FB7A28!important;
+}
+
+.bg-primary {
+    /* remove background */
+    background-color: transparent!important;
+}
+
+.form-control {
+    background-color: #041E42;
+    border: none;
+}
+.form-control[_ngcontent-ng-c406036674] {
+    color: var(--my-orange-color);
+}
+.payment-choice {
+    border: 1px solid #041E42;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* cc and paypal */
+.payment-options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .paypal-btn {
+    background-color: #d6c800; /* PayPal Blue */
+    color: white;
+  }
+  
+  .credit-card-btn {
+    background-color: #000000; /* Green */
+    color: white;
+  }
+  
+  .paypal-btn:hover, .credit-card-btn:hover {
+    opacity: 0.8;
+  }

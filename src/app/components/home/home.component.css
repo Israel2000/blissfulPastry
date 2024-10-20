@@ -18,8 +18,8 @@
 }
 
 a.btn.btn-primary {
-    background-color: var(--btn-color);
-    color: var(--my-orange-color);
+    background-color: white!important;
+    color: #E56717;
     border: none;
 }
 
@@ -27,16 +27,25 @@ p{
     color: var(--secondary-color)
 }
 /* form section */
-.form-section {
-    background-color: rgba(0, 123, 255, 0.2);
-    /* Semi-transparent blue background */
-}
-
-.form-container {
-    background-color: #041E42;
-    /* White background for form container */
+.background-container {
+    background-color: #2c3e50; /* Navy blue background for both sections */
+    padding: 40px;
     border-radius: 10px;
-    /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Optional: subtle shadow */
-}
+  }
+  
+  .form-container {
+    color: white; /* Ensure text is white on dark background */
+  }
+  
+  .right-section {
+    color: white; /* Ensure text is white on dark background */
+  }
+  
+  .btn-primary {
+    background-color: var(--my-orange-color)!important;
+    border: none !important;
+  }
+
+  div > .text-white {
+    color: var(--my-orange-color)!important;
+  }
